@@ -5136,8 +5136,8 @@ var sliders = function sliders(slides, direction, prev, next) {
     });
     nextBtn.addEventListener('click', function () {
       plusSlides(1);
-      items[slideIndex - 1].classList.remove('fadeIn');
-      items[slideIndex - 1].classList.add('fadeOut');
+      items[slideIndex - 1].classList.remove('fadeOut');
+      items[slideIndex - 1].classList.add('fadeIn');
     });
   } catch (e) {}
 
